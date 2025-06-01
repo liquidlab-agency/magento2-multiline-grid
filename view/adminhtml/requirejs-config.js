@@ -9,8 +9,5 @@ var config = {
                 'Liquidlab_MultilineGrid/js/grid/columns/column-mixin': true
             }
         }
-    },
-    paths: {
-        'liquidlab': 'Liquidlab_MultilineGrid/templates'
     }
 };

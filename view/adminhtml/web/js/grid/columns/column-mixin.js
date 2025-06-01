@@ -8,7 +8,7 @@ define(['ko'], function(ko) {
     return function (Column) {
         return Column.extend({
             defaults: {
-                bodyTmpl: 'liquidlab/grid/cells/multiline'
+                bodyTmpl: 'Liquidlab_MultilineGrid/grid/cells/multiline'
             },
 
             /**
