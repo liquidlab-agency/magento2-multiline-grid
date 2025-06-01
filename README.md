@@ -42,9 +42,8 @@ The module follows Magento's best practices for mixins:
 
 1. The `requirejs-config.js` file is placed in the `view/adminhtml` directory
 2. It defines a mixin for the `Magento_Ui/js/grid/columns/column` component
-3. It includes a path mapping for templates: `'liquidlab/template': 'Liquidlab_MultilineGrid/templates'`
-4. The mixin overrides the `getLabel` method to convert newlines to `<br>` tags
-5. The mixin sets the `bodyTmpl` to use a custom template with the `html` binding using the mapped path: `bodyTmpl: 'liquidlab/template/grid/cells/multiline'`
+3. The mixin overrides the `getLabel` method to convert newlines to `<br>` tags
+4The mixin sets the `bodyTmpl` to use a custom template with the `html` binding using the mapped path: `bodyTmpl: 'Liquidlab_MultilineGrid/grid/cells/multiline'`
 
 This approach automatically applies to all columns in the admin grid, making it a more elegant solution than creating a custom column type.
 
