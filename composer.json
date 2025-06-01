@@ -1,0 +1,17 @@
+{
+    "name": "liquidlab/magento2-multiline-grid",
+    "description": "Magento 2 module that preserves line breaks in text area custom attributes when displayed in the admin product grid.",
+    "type": "magento2-module",
+    "license": "MPL-2.0",
+    "require": {
+        "magento/framework": "*"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Liquidlab\\MultilineGrid\\": ""
+        }
+    }
+}
