@@ -12,6 +12,12 @@ This module provides a solution for displaying multiline text in Magento 2 admin
 
 ## Installation
 
+To install the module via Composer:
+```
+composer require liquidlab-agency/magento2-multiline-grid
+```
+
+After installation:
 1. The module is already installed in your Magento 2 instance.
 2. After making any changes to the module, you need to deploy the static content and clear the cache:
    ```
